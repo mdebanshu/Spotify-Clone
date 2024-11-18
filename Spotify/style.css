@@ -39,22 +39,63 @@ nav ul li{
     font-size:large;
 }
 .container{
-    min-height: 80vh;
+    min-height: 70vh;
+    border-radius: 10px;
+    color: white;
+    background-image: url(spotifybgimg.jpg);
+    display: flex;
+    background-color: black;
+    font-family: sans-serif,'Varela Round';
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
+
+
+
 .bottom{
-    padding: 5px;
+    padding: 3px;
     position: sticky;
     background-color: black;
-    height: 40px;
+    border-radius: 5px;
+    height: 130px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: white;
     flex-direction: column;
+    bottom: 0%;
 }
-
+.icons{
+    margin: 1px;
+    padding: 1px;
+    size: 40vh;
+}
 #myProgressBar{
-    width: 80vw;
+    width: 95vw;
+    justify-content: center;
+    padding: 5px;
+    
+    position: sticky;
   
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    width: 80%;
+    margin: 12px;
+    
+    
+
+
+}
+.songItem img{
+    
+
 }
