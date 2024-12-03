@@ -40,7 +40,6 @@ nav ul li{
 }
 .container{
     min-height: 70vh;
-    border-radius: 10px;
     color: white;
     background-image: url(spotifybgimg.jpg);
     display: flex;
@@ -73,13 +72,15 @@ nav ul li{
 }
 .icons{
     margin: 1px;
-    padding: 1px;
+    padding: 5px;
     size: 40vh;
+    cursor: pointer;
 }
 #myProgressBar{
     width: 95vw;
     justify-content: center;
     padding: 5px;
+    cursor: pointer;
     
     position: sticky;
   
@@ -87,15 +88,48 @@ nav ul li{
 .songItem{
     height: 50px;
     display: flex;
-    background-color: transparent;
+    background-color: whitesmoke;
     width: 80%;
-    margin: 12px;
+    margin: 12px 0;
+    border-radius: 15px;
+    color: black;
     
     
 
 
 }
+
 .songItem img{
     
+    
+    padding: 10px;
+    border-radius: 15px;
 
+
+
+}
+.songInfo{
+    position: absolute;
+    
+}
+.songInfo img{
+    padding-top: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.timestamp{
+    display: flex;
+    padding: 15px;
+    
+
+}
+.timestamp i{
+    padding-right: 3px;
+    cursor: pointer;
+}
+
+.songName{
+    display: flex;
+    padding: 15px;    
 }
